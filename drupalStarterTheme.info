@@ -19,6 +19,8 @@ stylesheets[all][] = css/style.css
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Scripts
 ;;;;;;;;;;;;;;;;;;;;;
+scripts[] = bower_components/jquery/dist/jquery.min.js
+
 scripts[] = bower_components/bootstrap/js/affix.js
 scripts[] = bower_components/bootstrap/js/alert.js
 scripts[] = bower_components/bootstrap/js/button.js

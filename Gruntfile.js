@@ -10,9 +10,9 @@ module.exports = function(grunt) {
             dev: {
                 options: {
                     sourceMap: true,
-                    sourceMapFilename: localConfig.pathToTheme + 'drupalStarterTheme/css/style.css.map',
+                    sourceMapFilename: 'css/style.css.map',
                     // This is mandatory for Chrome to parse the less files
-                    sourceMapRootpath: localConfig.host
+                    sourceMapRootpath: localConfig.host + localConfig.pathToTheme + 'drupalStarterTheme/'
                 },
                 files: {
                     'css/style.css': 'less/style.less',
@@ -35,7 +35,6 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'styleguide': 'less/bootstrap.less'
-                    //['less/bootstrap.less', 'js/bootstrap.js']
                 }
             }
         },
