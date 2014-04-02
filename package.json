@@ -1,10 +1,11 @@
 {
     "devDependencies": {
-        "grunt": "~0.4.2",
-        "grunt-cli": "~0.1.9",
-        "grunt-contrib-watch": "~0.5.3",
-        "matchdep": "~0.3.0",
-        "grunt-contrib-less": "~0.8.3"
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-contrib-watch": "*",
+        "matchdep": "*",
+        "grunt-contrib-less": "*",
+        "grunt-styleguide": "*"
     },
     "localConfig": {
         "host": "http://sebia.local:8888/",

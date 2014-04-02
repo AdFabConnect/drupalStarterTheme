@@ -20,15 +20,34 @@ module.exports = function(grunt) {
                 }
             }
         },
+        styleguide: {
+            options: {
+                template: {
+                    src: 'styleguide/kss'
+                },
+                framework: {
+                    name: 'kss'
+                }
+            },
+            all: {
+                options: {
+                    // task options
+                },
+                files: {
+                    'styleguide': 'less/bootstrap.less'
+                    //['less/bootstrap.less', 'js/bootstrap.js']
+                }
+            }
+        },
         watch: {
             all: {
                 files: [
                         'less/**/*.less'
                        ],
-                tasks: ['less'],
+                tasks: ['less', 'styleguide'],
             }
         }
     });
 
-    grunt.registerTask('default', ['less', 'watch']);
+    grunt.registerTask('default', ['less', 'styleguide', 'watch']);
 };
