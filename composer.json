@@ -1,0 +1,19 @@
+{
+	"name" : "AdFabConnect/drupalStarterTheme",
+	"type" : "drupal-module",
+	"description" : "Drupal 7 starter theme",
+	"authors" : [{
+			"name" : "Nicolas labbé",
+			"email" : "nicolas.labbe@adfab.fr"
+		}
+	],
+	"keywords" : [
+		"drupal",
+		"drupal 7",
+        "theme"
+	],
+	"homepage" : "https://github.com/AdFabConnect/drupalStarterTheme",
+	"license" : [
+		"BSD-3-Clause"
+	]
+}
